@@ -13,7 +13,7 @@ export default class CardProduct extends Component {
                     </div>
                     <p className="prod-title">Daging Sapi Rendang Frozen 1000 gr [1 Carton - 5 Pack]</p>
                     <p className="prod-price">Rp. 480.000</p>
-                    <Counter onCounterChange={(value) => this.props.onCounterChange(value )}/>
+                    <Counter />
                 </div>
             </div>
         )
